@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/arnav/Documents/Arnav/Projects/arnav-personal-portfolio/app/experiences/page.tsx"],"sourcesContent":["export default function ExperiencePage() {\n  return (\n    <main className=\"p-8\">\n      <h1 className=\"text-3xl font-bold\">Professional Experience</h1>\n      <p className=\"mt-4\">Senior Software Engineer with 7+ years of experience...</p>\n    </main>\n  );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAK,WAAU;;0BACd,8OAAC;gBAAG,WAAU;0BAAqB;;;;;;0BACnC,8OAAC;gBAAE,WAAU;0BAAO;;;;;;;;;;;;AAG1B"}}]
+}
