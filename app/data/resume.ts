@@ -1,6 +1,7 @@
 export const EXPERIENCE = [
   {
     company: "Cognite Technologies India Pvt Ltd",
+    logo: "/cognite.svg",
     role: "Senior Software Engineer",
     period: "Jun 2025 - Present",
     technologies: ["Kotlin", "Ktor", "Kubernetes", "AWS", "GCP", "Azure", "Bazel"],
@@ -14,6 +15,7 @@ export const EXPERIENCE = [
   },
   {
     company: "Lowe's Services India",
+    logo: "/lowes.svg",
     role: "Senior Software Engineer",
     period: "Oct 2023 - Jun 2025",
     technologies: ["Apache Beam", "Spring Boot", "Kafka","GCP", "Java", "Redis", "Cassandra"],
@@ -27,6 +29,7 @@ export const EXPERIENCE = [
   },
   {
     company: "Lowe's Services India",
+    logo: "/lowes.svg",
     role: "Software Engineer",
     period: "Sep 2021 - Oct 2023",
     technologies: ["Apache Beam", "Spring Boot", "Kafka","GCP", "Java", "Redis", "Cassandra"],
@@ -39,6 +42,7 @@ export const EXPERIENCE = [
   },
   {
     company: "Infosys Ltd",
+    logo: "/infosys.svg",
     role: "Specialist Programmer",
     period: "Jul 2018 - Sep 2021",
     technologies: ["Spring Boot", "Kafka", "Java", "PostgreSQL", "Microservices"],

@@ -12,3 +12,15 @@
 - Simply create sub folders within the `app` folder
 - Added basic `page.tsx` files for each route
 - Added routes using `Link` in the Navbar `.component`
+
+## Day 3: Enhanced the Professional Experience Page
+
+- Added a file `resume.ts` which serves as a datastore for the page
+- Enhanced the `experience/page.tsx` page to import & render data from `resume.ts`
+- Imported Logos for the respective companies
+
+## Day 4: Enhanced the Projects Page
+
+- Added a file `projects.ts` which serves as a datastore for the page
+- Enhanced the `projects/page.tsx` page to import & render data from `projects.ts`
+- Imported Logos for the respective companies
