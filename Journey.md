@@ -24,3 +24,9 @@
 - Added a file `projects.ts` which serves as a datastore for the page
 - Enhanced the `projects/page.tsx` page to import & render data from `projects.ts`
 - Imported Logos for the respective companies
+
+## Day 5: Enhanced the About & Home Page
+
+- Enriched the `about/page.tsx` page with more information
+- Added a section for `Beyond the Code`
+- Improved the home page and added my resume via a Google Drive link
