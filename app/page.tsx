@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white px-6">
+    <div className="min-h-screen flex items-start md:items-center justify-center bg-black text-white px-6 pt-24 md:pt-0">
       <div className="space-y-8 max-w-4xl">
         {/* Intro */}
         <header className="space-y-4">
