@@ -30,3 +30,8 @@
 - Enriched the `about/page.tsx` page with more information
 - Added a section for `Beyond the Code`
 - Improved the home page and added my resume via a Google Drive link
+
+## Day 6: Added Footer along with some SEO info
+
+- Added a `Footer.tsx` component with quick links to connect
+- Enriched the `layout.tsx` file to include SEO metadata 
