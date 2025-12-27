@@ -22,7 +22,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-portfolio-domain.com"), // Replace with your actual domain
+  metadataBase: new URL("https://arnavsaraf.dev"),
   title: {
     default: "Arnav Saraf | Senior Software Engineer",
     template: "%s | Arnav Saraf",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://your-portfolio-domain.com",
+    url: "https://arnavsaraf.dev/",
     title: "Arnav Saraf | Senior Software Engineer",
     description: "Specializing in high-throughput backend systems and cloud-native architectures.",
     siteName: "Arnav Saraf Portfolio",
