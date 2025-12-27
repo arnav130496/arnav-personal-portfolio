@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { RiNextjsFill, RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,13 +27,16 @@ const Navbar = () => {
       <nav className="fixed top-0 w-full z-[100] border-b border-gray-800 bg-black/90 backdrop-blur-md transition-all">
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-4 flex items-center justify-between">
           
-          {/* Logo */}
-          <Link href="/" className="z-[110] transition duration-300 hover:scale-105 flex items-center">
-            <RiNextjsFill className="w-10 h-10 md:w-12 md:h-12 text-white" />
+          {/* Logo / Brand Branding */}
+          <Link href="/" className="z-[110] group flex items-center gap-1">
+            <span className="text-2xl font-bold tracking-tighter text-white transition-colors group-hover:text-blue-500">
+              AS
+            </span>
+            <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mb-[-14px]" />
           </Link>
 
           {/* Desktop Menu */}
-          <ul className="hidden md:flex items-center gap-10 text-sm font-medium uppercase tracking-widest">
+          <ul className="hidden md:flex items-center gap-10 text-[11px] font-bold uppercase tracking-[0.2em]">
             {navLinks.map((link) => (
               <li key={link.name}>
                 <Link 
@@ -48,7 +51,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Toggle */}
           <button 
-            className="md:hidden text-white p-2 z-[110]" // Higher z-index to stay above the overlay
+            className="md:hidden text-white p-2 z-[110]" 
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle Menu"
           >
@@ -57,7 +60,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {/* Mobile Menu Overlay - moved outside of <nav> to avoid stacking-context issues */}
+      {/* Mobile Menu Overlay */}
       <div
         className={`
           fixed inset-0 bg-black flex flex-col items-center justify-center z-[105] md:hidden transition-all duration-300 ease-in-out
